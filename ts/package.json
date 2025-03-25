@@ -1,0 +1,24 @@
+{
+  "name": "laqueue",
+  "version": "1.0.0",
+  "description": "A simple SQLite-backed queue system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["queue", "sqlite", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.11.28",
+    "better-sqlite3": "^9.4.3",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
