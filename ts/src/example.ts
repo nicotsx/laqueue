@@ -2,7 +2,7 @@ import { createQueue } from './index';
 
 async function example() {
   // Create a queue instance
-  const queue = createQueue('./example.db', 'test-queue');
+  const queue = createQueue(':memory:', 'test-queue');
 
   // Enqueue some items
   console.log('Enqueueing items...');
